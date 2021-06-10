@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Xenn Race (Continued)</name>
   <packageId>Mlie.XennRace</packageId>
@@ -20,24 +20,33 @@
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
-  <description>Update of Xens mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Xens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018390248
 
-[img]https://i.imgur.com/wtwHAQu.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/XennRace
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/XennRace][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-Xenn, a canid alien race using the Alien Framework 2.0 by Erdelf.
-Make sure you are using the right version of the race and framework together!
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
-Added new heads by Diana (orassan creator) and tribal style start. (no starting research, but Xenn are high tech level - so no x3 research multiplier)
+1.1 version of the Xenn, a canid alien race using the Alien Framework V2.0 by Erdelf and co.
 
-Added unique armor and guns - and more backstories - unlocked via normal research for now
 
-added more backstories inspired by 80's action movies.</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>12f7f867-0bca-4315-9c43-93edf963c74b</ID>
   <ModName>Xenn Race (Continued)</ModName>
-  <Version>1.0.1.0</Version>
+  <Version>1.0.2.0</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,8 +12,3 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
-
-
-
-
-
