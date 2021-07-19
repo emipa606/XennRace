@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="FactionBase">
+    <defName>XennEmpire</defName>
+    <label>xenn empire</label>
+    <description>A colony of the mysterious Xenn race.</description>
+    <pawnsPlural>xenn</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Darth</leaderTitle>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>XennBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <allowedCultures>
+      <li>Astropolitan</li>
+    </allowedCultures>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+    </caravanTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <XennColonist>50</XennColonist>
+          <XennSecurityGuard>90</XennSecurityGuard>
+          <XennPackLeader>250</XennPackLeader>
+          <XennRecruit>100</XennRecruit>
+          <XennHunter>130</XennHunter>
+          <XennCommando>130</XennCommando>
+          <XennCommandoElite>170</XennCommandoElite>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <XennColonist>20</XennColonist>
+          <XennSecurityGuard>10</XennSecurityGuard>
+          <XennPackLeader>10</XennPackLeader>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <XennTrader>1</XennTrader>
+        </traders>
+        <carriers>
+          <Muffalo>2</Muffalo>
+          <Dromedary>2</Dromedary>
+        </carriers>
+        <guards>
+          <XennSecurityGuard>90</XennSecurityGuard>
+          <XennRecruit>100</XennRecruit>
+          <XennHunter>130</XennHunter>
+          <XennCommando>130</XennCommando>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <XennColonist>50</XennColonist>
+          <XennSecurityGuard>90</XennSecurityGuard>
+          <XennPackLeader>250</XennPackLeader>
+          <XennRecruit>100</XennRecruit>
+          <XennHunter>130</XennHunter>
+          <XennCommando>130</XennCommando>
+          <XennCommandoElite>170</XennCommandoElite>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/XennBaseIconOLD</settlementTexturePath>
+    <factionIconPath>World/XennBaseIconOLD</factionIconPath>
+  </FactionDef>
+</Defs>

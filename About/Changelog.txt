@@ -1,5 +1,8 @@
 # Changelog for XennRace
 
+1.0.3.0 - Mod updated for 1.3 and passed autotests
+
+
 1.0.2.0 - Race-def now inherits BasePawn to make it more compatible
 
 
