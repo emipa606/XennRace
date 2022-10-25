@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef Abstract="True" Name="BaseXennPawnKind">
+    <race>Alien_Xenn</race>
+    <combatPower>40</combatPower>
+    <initialWillRange>1~3</initialWillRange>
+    <initialResistanceRange>15~24</initialResistanceRange>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseXennPawnKind">
+    <defName>Xenn</defName>
+    <label>xenn colonist</label>
+    <defaultFactionType>XennPlayerColony</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>XennBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <apparelTags>
+      <li>Spacer</li>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>IndustrialMilitaryAdvanced</li>
+      <li>SpacerMilitary</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseXennPawnKind">
+    <defName>XennTribal</defName>
+    <label>xenn tribesman</label>
+    <defaultFactionType>XennPlayerColonyTribalx</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>XennBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <chemicalAddictionChance>0.01</chemicalAddictionChance>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>
